@@ -668,12 +668,7 @@ footer img{
 }
 
 @media(max-width:500px) {
-    #home {
-        padding: 88px 0px;
-     
-  
-
-    }
+    
     #project-section {
         padding: 25px;
     }
