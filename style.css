@@ -165,12 +165,11 @@ h5{
 }
 
 a:hover {
-    border-bottom:3px solid darkgoldenrod  ;
+    border-bottom:3px solid #b8860b  ;
     transition: 0.8s ease-in-out;
 }
 
 #home {
-    padding: 18px 15px;
     border-bottom: 4px solid rgb(47, 49, 49);
     background-color: var(--lightmodebg);
     color: var(--lightmodecolor);
@@ -182,21 +181,32 @@ a:hover {
 .img-text {
     font-family: "Salsa", cursive;
     font-weight: 400x;
-    max-width: 800px;
-    margin-inline: auto;
     min-height: 580px;
     display: flex;
     align-items: center;
-    column-gap: 5rem;
+    justify-content: space-around;
+    
 
 
 }
 
 .homeimg {
     max-width: 300px;
+   min-height:200px;
 
 
 }
+
+.biome{
+    max-width: 1071px;
+    margin-inline: auto;
+}
+.aboutme{
+    font-size: 2rem;
+    padding-inline: 1rem;
+    
+}
+
 
 .homeimg img {
     width: 100%;
@@ -206,13 +216,13 @@ a:hover {
 }
 
 .text {
-    padding-top: 1rem;
     font-size: 1.5rem;
     color: white;
-    font-weight: bold;
-    flex-grow: 1;
-    margin-left: 2rem;    padding-bottom: 3.5rem;
     color: var(--lightmodecolor);
+
+}
+
+.aboutme{
 
 }
 
@@ -220,7 +230,9 @@ a:hover {
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--textfont-color);
+   
 }
+
 
 .names{
     transition: 0.7s linear;
@@ -401,17 +413,12 @@ a:hover {
 @media(max-width:780px) {
     .text {
         font-size: 2rem;
-        color: white;
-        font-weight: bold;
-    
+        margin-bottom: 1rem;
         color: var(--lightmodecolor);
 
     }
 
-    .f1 {
-        font-size: 3rem;
-
-    }
+  
     .verticle {
         height: 140px;
        
@@ -663,6 +670,8 @@ footer img{
 @media(max-width:500px) {
     #home {
         padding: 88px 0px;
+     
+  
 
     }
     #project-section {
@@ -675,7 +684,7 @@ footer img{
 
     }
     html{
-        font-size: 13px;
+        font-size: 10px;
     }
     
 }
@@ -698,16 +707,16 @@ footer img{
     }
 
     .img-text {
-        margin-top: 50px;
+        margin-top: 20px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        flex-direction: column-reverse;
     }
 
     .homeimg {
   
         max-width: 260px;
-
 
 
     }
@@ -725,10 +734,7 @@ footer img{
     .horigentalline {
         display: none;
     }
-    .text{
-        font-size: 21px;
-        width: 200px;
-    }
+  
 
 }
 
@@ -779,11 +785,7 @@ padding: 12px;
  
 
 }
-.name {
-   font-size: 20px;
-   line-break:strict;
-  
-}
+
 .details P {
     font-size: 14px;
   
