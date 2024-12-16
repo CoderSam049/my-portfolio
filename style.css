@@ -126,7 +126,15 @@ h5{
 
 
 
+
 }
+
+.spline-3d #logo{
+    display: none;
+}
+
+
+
 
 .logo {
     font-weight: 300;
@@ -202,8 +210,10 @@ a:hover {
     margin-inline: auto;
 }
 .aboutme{
-    font-size: 2rem;
-    padding-inline: 1rem;
+    font-size: 1.8rem;
+    /* background-color: #2ec010; */
+    padding: 16px;
+    /* padding-inline: 1rem; */
     
 }
 
@@ -679,7 +689,7 @@ footer img{
 
     }
     html{
-        font-size: 10px;
+        font-size: 14px;
     }
     
 }
