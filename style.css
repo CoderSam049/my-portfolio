@@ -93,7 +93,10 @@ body.lightmode{
 }
 svg{ cursor: pointer;}
 
-
+#viewCount{
+    text-align: center;
+    font-family: fantasy;
+}
 
 
 header {
