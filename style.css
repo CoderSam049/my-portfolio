@@ -87,7 +87,9 @@ body.lightmode{
     position: absolute;
     overflow: hidden;
     height: 100%;
-    width: 100%;
+    z-index: 1;
+
+    width: 100%; 
 }
 
 
@@ -198,7 +200,6 @@ a:hover {
 .img-text {
     font-family: "Salsa", cursive;
     font-weight: 400x;
-    min-height: 580px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -210,6 +211,7 @@ a:hover {
 .homeimg {
     max-width: 300px;
    min-height:200px;
+   z-index: 5;
 
 
 }
@@ -220,7 +222,7 @@ a:hover {
 }
 .aboutme{
     font-size: 1.8rem;
-    padding: 28px;
+    padding: 18px 28px ;
 
     
 }
@@ -236,13 +238,12 @@ a:hover {
 .text {
     font-size: 1.5rem;
     color: white;
+    z-index: 8;
     color: var(--lightmodecolor);
 
 }
 
-.aboutme{
 
-}
 
 .f1 {
     font-size: 3rem;
@@ -275,7 +276,7 @@ a:hover {
     content: '';
     height:27px;
     width: 2px;
-    background-color: rgb(237, 150, 0);
+    background-color: #ed9600;
     align-items: center;
     
 }
@@ -513,6 +514,7 @@ a:hover {
     color: white;
     padding: 20px;
     border-radius: 11px;
+    z-index: 5;
     background-color: rgba(36, 35, 35, 0.777);
   
 
@@ -521,7 +523,8 @@ a:hover {
 .link {
     margin-top: 1rem;
     display: flex;
-    gap: 20px;
+    z-index: 8;
+    gap: 20px; z-index: 5;
     
 }
 
