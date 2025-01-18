@@ -5,26 +5,26 @@
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
-  text-transform: capitalize;
+    text-transform: capitalize;
 
 
 }
 
 
-body{
+body {
     background-color: var(--lightmodebg);
     color: var(--lightmodecolor);
 }
 
 
 
-main{
+main {
     max-width: 1650px;
     margin-inline: auto;
     box-shadow: 0px 1px 10px rgb(51, 50, 50);
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     background-color: rgb(111, 93, 56);
     border-radius: 40px;
     height: 10px;
@@ -35,15 +35,16 @@ main{
     --textfont-color: rgb(255, 159, 16);
 }
 
-body.darkcolorMode{
+body.darkcolorMode {
     --lightmodebg: rgb(0, 0, 0);
-    --lightmodecolor:rgb(255, 245, 245);
-   
+    --lightmodecolor: rgb(255, 245, 245);
+
 }
-body.lightmode{
+
+body.lightmode {
     --lightmodebg: rgb(255, 244, 244);
-    --lightmodecolor:rgb(0, 0, 0);
-  
+    --lightmodecolor: rgb(0, 0, 0);
+
 }
 
 
@@ -51,57 +52,67 @@ body.lightmode{
 
 
 
-.mousemover,.smallmouse,.smallmouse3,.smallmouse4{
-      background-color: var(--textfont-color);
+.mousemover,
+.smallmouse,
+.smallmouse3,
+.smallmouse4 {
+    background-color: var(--textfont-color);
     border-radius: 50%;
     mix-blend-mode: difference;
     overflow: hidden;
     position: fixed;
-    left: 0;right: 0;
+    left: 0;
+    right: 0;
 }
 
-.mousemover{
-    height:25px;
-    width:25px;
+.mousemover {
+    height: 25px;
+    width: 25px;
     transition: 0.3s linear;
 
 }
-.smallmouse{
-    height:15px;
-    width:15px;
+
+.smallmouse {
+    height: 15px;
+    width: 15px;
     transition: 0.8s linear;
 }
-.smallmouse3{
-    height:7px;
-    width:7px;
+
+.smallmouse3 {
+    height: 7px;
+    width: 7px;
     transition: 1.2s linear;
 }
-.smallmouse4{
-    height:5px;
-    width:5px;
+
+.smallmouse4 {
+    height: 5px;
+    width: 5px;
     transition: 1.5s linear;
 }
- 
 
-#particles-js{
+
+#particles-js {
     position: absolute;
     overflow: hidden;
     height: 100%;
     z-index: 1;
 
-    width: 100%; 
+    width: 100%;
 }
 
 
 
-.sun svg{
-   
+.sun svg {
+
     display: none;
-  
-}
-svg{ cursor: pointer;}
 
-#viewCount{
+}
+
+svg {
+    cursor: pointer;
+}
+
+#viewCount {
     text-align: center;
     font-family: fantasy;
 }
@@ -114,14 +125,16 @@ header {
     box-shadow: 0px 1px 10px rgb(51, 50, 50);
     background-color: var(--lightmodebg);
     color: var(--lightmodecolor);
-   
+
 
 }
 
-h5{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 8px; color: var(--lightmodecolor);
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 8px;
+    color: var(--lightmodecolor);
 }
+
 .navbar {
     max-width: 1400px;
     display: flex;
@@ -133,14 +146,14 @@ h5{
     position: relative;
     color: var(--lightmodecolor);
 
-   
+
 
 
 
 
 }
 
-.spline-3d #logo{
+.spline-3d #logo {
     display: none;
 }
 
@@ -149,13 +162,14 @@ h5{
 
 .logo {
     font-weight: 300;
-    color:var(--textfont-color);
+    color: var(--textfont-color);
     font-size: 1.5rem;
     font-family: "Pacifico", cursive;
     font-style: normal;
 
 }
-.logo span{
+
+.logo span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
 
@@ -177,14 +191,14 @@ h5{
     margin-left: 15px;
     font-size: 1.2rem;
     list-style: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200px;
 
     opacity: .7;
 }
 
 a:hover {
-    border-bottom:3px solid #b8860b  ;
+    border-bottom: 3px solid #b8860b;
     transition: 0.8s ease-in-out;
 }
 
@@ -203,28 +217,29 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 
 
 }
 
 .homeimg {
     max-width: 300px;
-   min-height:200px;
-   z-index: 5;
+    min-height: 200px;
+    z-index: 5;
 
 
 }
 
-.biome{
+.biome {
     max-width: 1071px;
     margin-inline: auto;
 }
-.aboutme{
-    font-size: 1.8rem;
-    padding: 18px 28px ;
 
-    
+.aboutme {
+    font-size: 1.8rem;
+    padding: 18px 28px;
+
+
 }
 
 
@@ -249,11 +264,11 @@ a:hover {
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--textfont-color);
-   
+
 }
 
 
-.names{
+.names {
     transition: 0.7s linear;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -268,17 +283,17 @@ a:hover {
     padding-right: 20px;
     padding-block: 10px;
     align-items: center;
-  
+
 }
 
-.name::after{
+.name::after {
     margin-left: 10px;
     content: '';
-    height:27px;
+    height: 27px;
     width: 2px;
     background-color: #ed9600;
     align-items: center;
-    
+
 }
 
 
@@ -311,11 +326,13 @@ a:hover {
     margin-top: 2rem;
     border: 1px solid rgb(190, 189, 200);
 }
-.vertical img{
+
+.vertical img {
     margin-left: 1.5rem;
     margin-top: 10px;
- 
+
 }
+
 .myskillearn {
     position: relative;
     left: 10px;
@@ -330,7 +347,7 @@ a:hover {
     padding: 40px 9%;
     background-color: var(--lightmodebg);
     color: var(--lightmodecolor);
-   
+
 
 }
 
@@ -373,22 +390,21 @@ a:hover {
 
 .project:hover {
     transform: scale(1.02);
-    transition: .4s linear;
+    transition: .6s linear;
     color: rgb(2, 2, 2);
     opacity: 1;
-    background-color: #ffffffc0;
-   
+    background-color: #e8e8e836;
 
 }
 
 .project img {
     width: 100%;
-    max-width:320px;
+    max-width: 320px;
     height: 250px;
     opacity: 1;
     margin-bottom: 1rem;
     border-radius: 10px;
-    
+
 
 }
 
@@ -408,7 +424,8 @@ a:hover {
 }
 
 .project button {
-    max-width: 120px;font-size: 0.9rem;
+    max-width: 120px;
+    font-size: 0.9rem;
     padding: 7px 20px;
     color: rgb(0, 0, 0);
     line-height: 1.5;
@@ -424,7 +441,7 @@ a:hover {
 .project button:hover {
     cursor: pointer;
     background-color: rgb(182, 255, 35);
-    
+
 }
 
 
@@ -437,10 +454,10 @@ a:hover {
 
     }
 
-  
+
     .verticle {
         height: 140px;
-       
+
     }
 
 
@@ -509,14 +526,14 @@ a:hover {
     border-radius: 50%;
 }
 
-.link i{
+.link i {
     font-size: 2rem;
     color: white;
     padding: 20px;
     border-radius: 11px;
     z-index: 5;
     background-color: rgba(36, 35, 35, 0.777);
-  
+
 
 }
 
@@ -524,8 +541,9 @@ a:hover {
     margin-top: 1rem;
     display: flex;
     z-index: 8;
-    gap: 20px; z-index: 5;
-    
+    gap: 20px;
+    z-index: 5;
+
 }
 
 .link,
@@ -534,7 +552,7 @@ a:hover {
 
 }
 
-.link i:hover{
+.link i:hover {
     position: relative;
     transition: 0.2s linear;
     background-color: crimson;
@@ -552,10 +570,11 @@ a:hover {
 }
 
 
-.manylink a{
+.manylink a {
     text-decoration: none;
     color: inherit;
 }
+
 .manylink {
     color: white;
     display: flex;
@@ -588,7 +607,9 @@ a:hover {
     color: var(--lightmodecolor);
 }
 
-.contact-form input, button,textarea {
+.contact-form input,
+button,
+textarea {
     padding: 6px;
     margin: 8px 0px;
     width: 100%;
@@ -619,13 +640,16 @@ a:hover {
     background-color: #42e009ea;
 }
 
-textarea,input::placeholder{font-size: 14px;}
+textarea,
+input::placeholder {
+    font-size: 14px;
+}
 
 
 
 
-.hamburger{
-  display: none;
+.hamburger {
+    display: none;
 }
 
 .hamburger {
@@ -635,26 +659,27 @@ textarea,input::placeholder{font-size: 14px;}
     color: var(--textfont-color);
     padding-inline-end: 20px;
 }
-.cuthome{
+
+.cuthome {
     position: relative;
 }
 
-.cut{
+.cut {
     position: absolute;
     top: 0;
     cursor: pointer;
     left: 120px;
     display: none;
-  
+
 }
 
 
-.mycv{
+.mycv {
     margin-block: 1rem;
-    
+
 }
 
-.cv{
+.cv {
     border: 2px solid black;
     color: rgba(255, 255, 255, 0.882);
     border: none;
@@ -664,13 +689,14 @@ textarea,input::placeholder{font-size: 14px;}
     text-decoration: none;
     border-radius: 10px;
 }
-.cv:hover{
+
+.cv:hover {
     color: rgba(248, 247, 247, 0.899);
     background-color: #2ec010;
 }
 
-footer{
-    border-top:1px solid rgb(64, 37, 202);
+footer {
+    border-top: 1px solid rgb(64, 37, 202);
     margin-top: 1rem;
     color: white;
     text-align: center;
@@ -681,15 +707,17 @@ footer{
     max-width: 250px;
     margin-inline: auto;
     color: var(--lightmodecolor);
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     gap: 11px;
 }
-footer img{
+
+footer img {
     width: 50px;
 }
 
 @media(max-width:500px) {
-    
+
     #project-section {
         padding: 25px;
     }
@@ -699,12 +727,18 @@ footer img{
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 
     }
-    html{
+
+    html {
         font-size: 14px;
     }
-    
+
 }
-@media(max-width:350px) {.link {   flex-wrap: wrap;}}
+
+@media(max-width:350px) {
+    .link {
+        flex-wrap: wrap;
+    }
+}
 
 @media(max-width:795px) {
     .start {
@@ -731,7 +765,7 @@ footer img{
     }
 
     .homeimg {
-  
+
         max-width: 260px;
 
 
@@ -747,65 +781,68 @@ footer img{
         flex-direction: column;
         gap: 50px;
     }
+
     .horigentalline {
         display: none;
     }
-  
+
 
 }
 
 
-    
-
-@media(max-width:750px){
-       
-.navbar ul{
-padding: 12px;
-    position: absolute;
-    right: 7800px;
-   transition: 0.3s linear;
-}
-        
-.hamburger{
-    display: block;
- 
-  }
 
 
-  .responsive{
-    position: absolute;
-    right: 0;
-    top: 0px;
-    border-radius: 4px;
-    flex-direction: column;
-    line-height: 2.5;
-    width: 180px;
-    padding: 10px 10px 0px 10px;
-    background-color: var(--lightmodebg);
-    color: var(--lightmodecolor);
-  
+@media(max-width:750px) {
 
-}
+    .navbar ul {
+        padding: 12px;
+        position: absolute;
+        right: 7800px;
+        transition: 0.3s linear;
+    }
 
- ul.responsive{
- 
-    right: 0px;
-  
-  }
-  .cut{
-   display: block;
-  
-}
-.text{
- min-width: 170px;   
- 
+    .hamburger {
+        display: block;
 
-}
+    }
 
-.details P {
-    font-size: 14px;
-  
-}
+
+    .responsive {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        border-radius: 4px;
+        flex-direction: column;
+        line-height: 2.5;
+        width: 180px;
+        padding: 10px 10px 0px 10px;
+        background-color: var(--lightmodebg);
+        color: var(--lightmodecolor);
+
+
+    }
+
+    ul.responsive {
+
+        right: 0px;
+
+    }
+
+    .cut {
+        display: block;
+
+    }
+
+    .text {
+        min-width: 170px;
+
+
+    }
+
+    .details P {
+        font-size: 14px;
+
+    }
 
 
 }
