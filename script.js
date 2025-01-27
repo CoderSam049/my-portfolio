@@ -4,6 +4,7 @@ const btns = document.querySelectorAll(".projectbtn");
 //project links--------
 const projectLink = [
   "https://apnamanuu-education.netlify.app/",
+  "https://primenests.onrender.com/listing",
   "https://eidmubark-whishes.netlify.app/",
   "https://apnacollegeclone-by-samirkhan.netlify.app/",
   "https://about-all-country.netlify.app/",
