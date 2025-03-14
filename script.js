@@ -1,15 +1,15 @@
 const btns = document.querySelectorAll(".projectbtn");
+const copyrightYear = document.querySelector('.copyright-year')
 
 
 //project links--------
 const projectLink = [
   "https://apnamanuu-education.netlify.app/",
   "https://primenests.onrender.com/listing",
-  "https://eidmubark-whishes.netlify.app/",
   "https://apnacollegeclone-by-samirkhan.netlify.app/",
-  "https://about-all-country.netlify.app/",
+  "https://aman-educational-point-2.vercel.app/",
   "https://googleplaystoreclone.netlify.app/",
-  "https://best-headphone-web-bysamir.netlify.app/"
+  "https://eidmubark-whishes.netlify.app/",
 
 ];
 
@@ -21,6 +21,11 @@ btns.forEach((btn, i) => {
 });
 
 
+
+//copy right year
+let date = new Date();
+let year = date.getFullYear();
+copyrightYear.textContent = year;
 
 
 
@@ -169,25 +174,25 @@ let breakText = text.innerText.split("")
 let clutter = '';
 
 
-var textHalf=   Math.floor(text.innerText.length/2)-2
-function  TextBreak(){
-  breakText.forEach((element,idx) => {
-    if(idx<textHalf){
-   clutter += `<span class= "a"> ${element}</span>`
+var textHalf = Math.floor(text.innerText.length / 2) - 2
+function TextBreak() {
+  breakText.forEach((element, idx) => {
+    if (idx < textHalf) {
+      clutter += `<span class= "a"> ${element}</span>`
     }
-    else{
-       clutter += `<span class= "b"> ${element}</span>`
+    else {
+      clutter += `<span class= "b"> ${element}</span>`
     }
-  
+
   });
   text.innerHTML = clutter;
 }
 
 TextBreak()
 
-setTimeout(()=>{
-console.log('hii')
-},1000)
+setTimeout(() => {
+  console.log('hii')
+}, 1000)
 
 
 
@@ -198,8 +203,8 @@ gsap.from(".logo .a", {
 
   y: 50,
   color: 'blue',
-  duration: 0.5,  
-  delay: 1,         
+  duration: 0.5,
+  delay: 1,
   stagger: 0.7,
   opacity: 0,
   color: 'green',
@@ -212,8 +217,8 @@ gsap.from(".logo .b", {
 
   y: 150,
   color: 'blue',
-  duration: 1.5,  
-  delay: 1,         
+  duration: 1.5,
+  delay: 1,
   stagger: -0.3,
   opacity: 0,
   color: 'green',
@@ -228,14 +233,14 @@ gsap.from(".logo .b", {
 
 
 
-function gsapanimation2(){
+function gsapanimation2() {
   gsap.from("ul li", {
-  duration: 0.6,
-  y: -40,
-  stagger: 0.2,
-  opacity: 0,
+    duration: 0.6,
+    y: -40,
+    stagger: 0.2,
+    opacity: 0,
 
-})
+  })
 
 }
 gsapanimation2()
